@@ -36,18 +36,18 @@ module.exports = {
     // displayAllHeaders: true,
     nav: [
       { text: "JavaScript", link: "/javascript/" },
-      { text: "nodejs", link: "/nodejs/" },
+      // { text: "nodejs", link: "/nodejs/" },
     ],
     sidebar: [
       {
         title: "react.js系列",
         collapsed: false,
-        children: [["react/diff", "react diff 原理"]],
+        // children: [["react/diff", "react diff 原理"]],
       },
       {
         title: "Javascript系列",
         collapsed: false,
-        children: [["javascript/bind", "如何实现bind函数"]],
+        // children: [["javascript/bind", "如何实现bind函数"]],
       },
     ],
   },
