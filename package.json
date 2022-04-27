@@ -1,0 +1,21 @@
+{
+  "name": "web-abc",
+  "version": "1.0.0",
+  "description": "前端学习笔记",
+  "main": "index.js",
+  "repository": "https://github.com/skdream/web-abc.git",
+  "author": "jsir",
+  "license": "ISC",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "gitalk": "^1.7.2"
+  }
+}

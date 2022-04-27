@@ -1,6 +1,3 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
 
 ## Dependency directory
 ## Commenting this out is preferred by some people, see
@@ -8,9 +5,5 @@
 node_modules
 
 # Book build output
-_book
+docs/.vuepress/dist
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
