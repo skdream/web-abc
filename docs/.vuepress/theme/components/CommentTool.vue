@@ -10,8 +10,8 @@ import Gitalk from 'gitalk';
 export default {
     mounted () {
         let gitalk = new Gitalk({
-            clientID: 'xxx',
-            clientSecret: 'xxxx',
+            clientID: '54fffddd8537f0f988ca',
+            clientSecret: '0af8458524880fcfb95ac037f57d90435f0d5366',
             repo: 'web-abc',
             owner: 'skdream',
             admin: ['skdream'],
