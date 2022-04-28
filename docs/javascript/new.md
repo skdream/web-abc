@@ -94,11 +94,11 @@ function objectFactory() {
 
 更多关于：
 
-原型与原型链，可以看[《JavaScript深入之从原型到原型链》](https://github.com/mqyqingfeng/Blog/issues/2)
+ - 原型与原型链，可以看[《JavaScript深入之从原型到原型链》](https://github.com/mqyqingfeng/Blog/issues/2)
 
-apply，可以看[《JavaScript深入之call和apply的模拟实现》](https://github.com/mqyqingfeng/Blog/issues/11)
+ - apply，可以看[《JavaScript深入之call和apply的模拟实现》](https://github.com/mqyqingfeng/Blog/issues/11)
 
-经典继承，可以看[《JavaScript深入之继承》](https://github.com/mqyqingfeng/Blog/issues/16)
+ - 经典继承，可以看[《JavaScript深入之继承》](https://github.com/mqyqingfeng/Blog/issues/16)
 
 复制以下的代码，到浏览器中，我们可以做一下测试：
 
