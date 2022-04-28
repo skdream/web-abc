@@ -18,7 +18,7 @@ import PageNav from '@theme/components/PageNav.vue'
 import CommentTool from './CommentTool';
 
 export default {
-  components: { PageEdit, PageNav },
+  components: { PageEdit, PageNav, CommentTool },
   props: ['sidebarItems']
 }
 </script>
