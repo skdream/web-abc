@@ -1,7 +1,8 @@
+const path = require("path");
 module.exports = {
   llang: "zh-CN",
-  title: "前端学习笔记",
-  description: "前端学习笔记,react,js,html,ci/cd,nodejs",
+  title: "前端笔记",
+  description: "前端笔记,react,js,html,ci/cd,nodejs",
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
     [
@@ -34,27 +35,50 @@ module.exports = {
     // 默认为 "Edit this page"
     editLinkText: "帮助我们改善此页面！",
     // displayAllHeaders: true,
-    lastUpdated: '上次更新', // string | boolean
+    lastUpdated: "上次更新", // string | boolean
     nav: [
+      { text: "dev", link: "/dev/" },
+      { text: "react", link: "/react/" },
       { text: "JavaScript", link: "/javascript/" },
       // { text: "nodejs", link: "/nodejs/" },
     ],
+    // displayAllHeaders: true ,// 默认值：false
+    sidebarDepth: 0,
+    // sidebar: 'auto',
     sidebar: [
+      {
+        title: "网站开发",
+        collapsed: false,
+        children: [
+          ["dev/doc-site", "静态网站搭建程序对比?"],
+        ],
+      },
+
       {
         title: "react.js系列",
         collapsed: false,
-        // children: [["react/diff", "react diff 原理"]],
+        children: [
+          ["react/diff", "react diff 原理"],
+        ],
       },
       {
         title: "Javascript系列",
         collapsed: false,
-        // children: [["javascript/bind", "如何实现bind函数"]],
+        children: [
+          ["javascript/new", "JavaScript深入之new的模拟实现"],
+        ],
       },
     ],
   },
   plugins: [
     ["@vuepress/back-to-top"],
-    ['@vuepress/last-updated'],
+    ["@vuepress/last-updated"],
+    [
+      "@vuepress/register-components",
+      {
+        componentsDir: path.join(__dirname, "theme/components"),
+      },
+    ],
     [
       "@vuepress/google-analytics",
       {

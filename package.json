@@ -1,7 +1,7 @@
 {
   "name": "web-abc",
   "version": "1.0.0",
-  "description": "前端学习笔记",
+  "description": "前端笔记",
   "main": "index.js",
   "repository": "https://github.com/skdream/web-abc.git",
   "author": "jsir",
@@ -14,6 +14,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-google-analytics": "^1.9.7",
+    "@vuepress/plugin-register-components": "^1.9.7",
     "vuepress": "^1.9.7"
   },
   "dependencies": {
