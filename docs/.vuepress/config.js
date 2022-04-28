@@ -34,6 +34,7 @@ module.exports = {
     // 默认为 "Edit this page"
     editLinkText: "帮助我们改善此页面！",
     // displayAllHeaders: true,
+    lastUpdated: '上次更新', // string | boolean
     nav: [
       { text: "JavaScript", link: "/javascript/" },
       // { text: "nodejs", link: "/nodejs/" },
