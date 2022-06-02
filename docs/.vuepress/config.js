@@ -45,30 +45,7 @@ module.exports = {
     // displayAllHeaders: true ,// 默认值：false
     sidebarDepth: 0,
     // sidebar: 'auto',
-    sidebar: [
-      {
-        title: "网站开发",
-        collapsed: false,
-        children: [
-          ["dev/doc-site", "静态网站搭建程序对比?"],
-        ],
-      },
-
-      {
-        title: "react.js系列",
-        collapsed: false,
-        children: [
-          ["react/diff", "react diff 原理"],
-        ],
-      },
-      {
-        title: "Javascript系列",
-        collapsed: false,
-        children: [
-          ["javascript/new", "JavaScript深入之new的模拟实现"],
-        ],
-      },
-    ],
+    sidebar: require('./sidebarConf'),
   },
   plugins: [
     ["@vuepress/back-to-top"],
