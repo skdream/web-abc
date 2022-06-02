@@ -78,3 +78,7 @@ Jekyll
 Jekyll 是现有的一款成熟且优秀的静态网站生成器——实际上，在 Docusaurus 诞生之前，Facebook 的诸多开源站点都是使用 Jekyll 构建而成！ 它的上手难度极低。 我们想要为您带来与使用 Jekyll 构建静态站点类似的开发者体验。
 
 同静态生成的 HTML 及使用` <script />` 标签所添加的交互性相比，Docusaurus 站点为 React 应用程序。 Using modern JavaScript ecosystem tooling, we hope to set new standards on doc sites' performance, asset building pipeline and optimizations, and ease to set up.
+
+
+
+Nextra is a Next.js based static site generator.
