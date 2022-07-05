@@ -1,4 +1,6 @@
+# 跨tab通信
 
+``` html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -269,3 +271,4 @@
 </body>
 
 </html>
+```
